@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* 
+font-family: 'Montserrat', sans-serif;
+ */
+
+
+
+/*     transition: .5s; */
+
+
+ body { 
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .social-section {
+
+    margin-bottom: 0;
+ }
+.social-section li {
+    display: inline-block;
+    padding: 0 10px;
+ 
+}
+
+.social-section li i {
+    color: #96BB7C;
+    font-size: 24px;
+}
+
+
+
+/* Hedar section */
+.header {
+    background-color: #FAFAFA;
+}
+
+.header-top {
+    padding: 6px 0;
+}
+
+
+.header-top .navbar {
+    padding: 0;
+}
+
+.fixed-top {
+    background-color: #fff !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 
+                0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.logo {
+    color: #252B42 !important;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: 0.1px;
+    margin-right: 25px;
+
+}
+
+
+.edu {
+    width: 82px;
+    padding-bottom: 6px;
+}
+
+.main-nav .nav-item .nav-link {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 0 12px;
+}
+
+.login-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #96BB7C !important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    margin-right: 45px;
+    }
+
+
+ .join-link {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #96BB7C;
+    color: #FFF !important;
+    color: #FFF !important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    margin-right: 77px;
+    border-radius: 5px;
+    }
+
+
+   .hero {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/about.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #0000;
+  
+   }
+   .page-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    padding: 100px 50px 0 0;
+    margin-top: 50px;
+
+   }
+/* About Us Section */
+   .vision-missoin {
+    padding: 80px 0;
+    margin-bottom: 10px 0;
+   }
+   .text-desc {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    list-style-type: circle;
+ 
+  
+   
+   }
+
+/* Students Us Section */
+
+.section-title {
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.section-desc{
+    color: #737373 !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    margin-bottom: 80px;
+}
+
+.cls-name {
+        color: #96BB7C;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    
+    }
+
+
+.student{
+    padding: 56px 0;
+
+}
+
+.student .card {
+    border-radius: 20px;
+    border: 0;
+    background: #FFF;
+    margin-bottom: 25px;
+}
+
+    .student .card:hover {
+        /* box-shadow: 0px 13px 19px 0px rgba(10, 10, 10, 0.07); */
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        
+
+    }
+    
+
+    .student .card .card-img-top {
+        height: 245px;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: .5s;
+
+    }
+
+    .student .card .card-body .card-title {
+        color: #252B42;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px; 
+        letter-spacing: 0.1px;
+        margin-bottom: 10px;
+    }
+
+
+    .student-view .view {
+        color: #737373!important;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        padding: 0 12px;
+        text-decoration: none;
+
+    }
+
+
+    .student-view .view:hover {
+        color: #96BB7C !important;
+        text-decoration: underline ;
+        cursor: pointer;
+
+
+
+    }
+    .student-p{
+        margin-bottom: 0;
+    }
+
+   /* addmission.html */
+
+   .add-title {
+    padding-top: 70px;
+   }
+
+   /* Gallary */
+   .flex-slider {
+    margin-top: 80px;
+    margin-bottom: 60px;
+   }
+
+   /* Contact  */
+   .custom-row{
+    margin-top: 150px;
+   }
+   .contact {
+    margin-top: 26px;
+    margin-bottom: 30px;
+   }
+   .contact-card {
+    box-shadow: 0px 2px 7px #d4d4d4;
+    padding-top: 7px !important;
+    padding-right: 0px !important;
+    padding-bottom: 15px !important;
+    padding-left: 0px !important;
+   }
+
+
+
+
+
+   /* Footer */
+
+    .footer-top {
+
+        padding: 50px 0;
+    }
+
+    .footer-nav {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .footer-nav h5, .footer-address h5 {
+        color: #252B42;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+    }
+
+    .footer-nav li a, .footer-address h6 {
+        color: #737373;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+
+    }
+    .footer-nav li a:hover {
+        text-decoration: none;
+        color: #252B42;
+    }
+
+    .footer-address i {
+        color: #96BB7C;
+        font-size: 24px;
+        width: 24px;
+
+      
+    }
+
+
+    .footer-address h6 {
+        margin-left: 10px;
+    }
+
+    .footer-copyright {
+        padding: 25px 0;
+        background-color: #FAFAFA;
+    }
+
+    .copyright-text {
+        color:#737373;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        margin-bottom: 0;
+    }
+
